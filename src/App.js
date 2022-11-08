@@ -12,22 +12,18 @@ function App() {
   return (
    <>
       <Header/>
-   
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/product' element={<Product />} />
             <Route exact path='/about' element={<About />} />
             <Route exact path='/contact' element={<Contact />} />
-            <Route to='/' />
-            
+            <Route to='/' />     
           </Routes>
-     
-      
-
+ 
    </>
       
     
   );
 }
 
-export default App;
+export default App
